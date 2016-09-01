@@ -46,7 +46,7 @@ export default {
   showStory() {
     this.storyGroup = this.game.add.group();
 
-    this.storyText1 = this.game.add.text(this.game.width * 0.5, this.game.height * 1.3, 'Episode VII\nSTARTING SCHOOL', {
+    this.storyText1 = this.game.add.text(this.game.width * 0.5, this.game.height * 1.3, 'Episode EyeExEye\nThe Write Side', {
       font: `700 60px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -58,7 +58,7 @@ export default {
 
     this.storyGroup.add(this.storyText1);
 
-    this.storyText2 = this.game.add.text(this.game.width * 0.5, this.storyText1.y + this.storyText1.height + 50, "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.", {
+    this.storyText2 = this.game.add.text(this.game.width * 0.5, this.storyText1.y + this.storyText1.height + 50, "The empire known as the Industry is on the lookout for talented writers who can satisfy the needs of its people: The Readers. These writers will provide new stories to bolster the Empires force's against an evil old as the galaxy itself...boredom.", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -69,7 +69,7 @@ export default {
 
     this.storyGroup.add(this.storyText2);
 
-    this.storyText3 = this.game.add.text(this.game.width * 0.5, this.storyText2.y + this.storyText2.height + 100, "During the battle, Rebel spies managed to steal secret plans to the Empire's weapon,\nthe DEATH STAR, an armored space station with the power to destroy an entire planet.", {
+    this.storyText3 = this.game.add.text(this.game.width * 0.5, this.storyText2.y + this.storyText2.height + 100, "Boredom is an ancient tool utilized by those who wield the Dark Side of the Force, a tool many thought lost beneath the waves of time, until now. Rumor spreads of dark figures able to drain Readers of their energy and excitement, leaving them dazed and lethargic. Boredom has been weaponized once again.", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -80,7 +80,7 @@ export default {
 
     this.storyGroup.add(this.storyText3);
 
-    this.storyText4 = this.game.add.text(this.game.width * 0.5, this.storyText3.y + this.storyText3.height + 50, "Pursued by the Evil Empire's sinister agents, Jedi Louis races home aboard his starship, custodian of the stolen plan that can restore freedom to the galaxy....", {
+    this.storyText4 = this.game.add.text(this.game.width * 0.5, this.storyText3.y + this.storyText3.height + 50, "To help the Industry combat this menace, the Jedi council has dispatched several of its prominent masters to seek out those gifted in the Force, to train them as Jedi Knights in the fight against this evil. As Boredom spreads, it's a race against time before all is consumed.....", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
