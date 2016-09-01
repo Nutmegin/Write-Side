@@ -6,12 +6,12 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "NODE_ENV=production webpack",
-    "deploy": "surge -p public -d writeside.surge.sh",
+    "deploy": "surge -p public -d Writeside.surge.sh",
     "yolo": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickryall/louisinvite.git"
+    "url": "https://github.com/Tangynt/Write-Side.git"
   },
   "author": "Nick Ryall",
   "license": "ISC",
