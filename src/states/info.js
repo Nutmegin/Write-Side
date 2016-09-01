@@ -34,7 +34,7 @@ export default {
 
   showInfo() {
     // Type in the invite details
-    this.infoText = this.game.add.text(410, 250, '22 Aug 2015, 12.30pm - 2pm.\nThe Monkey Tree,\nUnit 10, 11 Silverfield\nWairau Valley, Auckland.\n\nChildren are encouraged to dress up as their favourite Hero/Villan. Food, drink and entertainment provided.', {
+    this.infoText = this.game.add.text(410, 250, 'Entry window opens.\n7 Sept 2016, 12.00am - 11:59pm Eastern time.\nMay the Force Be With You.', {
       font: `20px "${ app.fontFamily }"`,
       fill: '#fff',
       wordWrap: true,
@@ -56,14 +56,14 @@ export default {
     this.rsvpButton.inputEnabled = true;
     this.rsvpButton.input.useHandCursor = true;
     this.rsvpButton.events.onInputUp.add(() => {
-      window.open('https://www.facebook.com/events/921718427887495/', '_blank');
+      window.open('https://pitchslamcontest.com', '_blank');
     });
 
     this.rsvpButtonTween = this.game.add.tween(this.rsvpButton).from({ alpha: 0 }, 3000,  Phaser.Easing.Quadratic.Out, true );
   },
 
   showEmailLink() {
-    this.emailText = this.game.add.text(this.rsvpButton.x + this.rsvpButton.width + 20, this.rsvpButton.y + 10, 'aimeesorrell@hotmail.com', {
+    this.emailText = this.game.add.text(this.rsvpButton.x + this.rsvpButton.width + 20, this.rsvpButton.y + 10, 'elle@pitchslamcontest.com', {
       font: `20px "${ app.fontFamily }"`,
       fill: 'rgb(75, 213, 238)',
       wordWrap: true,
@@ -74,14 +74,14 @@ export default {
     this.emailText.inputEnabled = true;
     this.emailText.input.useHandCursor = true;
     this.emailText.events.onInputUp.add(() => {
-      window.open('mailto:aimeesorrell@hotmail.com');
+      window.open('mailto:elle@pitchslamcontest.com');
     });
 
     this.emailTextTween = this.game.add.tween(this.emailText).from({ alpha: 0 }, 3000,  Phaser.Easing.Quadratic.Out, true );
   },
 
   showPhoneNumber() {
-    this.phoneText = this.game.add.text(this.rsvpButton.x + this.rsvpButton.width + 20, this.rsvpButton.y + 40, 'Mobile: 0211912340', {
+    this.phoneText = this.game.add.text(this.rsvpButton.x + this.rsvpButton.width + 20, this.rsvpButton.y + 40, 'http://pitchslamcontest.com', {
       font: `20px "${ app.fontFamily }"`,
       fill: '#fff',
       wordWrap: true,
