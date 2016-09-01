@@ -48,7 +48,7 @@ export default {
   showIntro() {
     this.loadingText.destroy();
 
-    this.introText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'A long time ago, in a galaxy\nfar far away...', {
+    this.introText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'A long time ago, in a conest\nfar far away...', {
       font: `40px "${ app.fontFamily }"`,
       fill: 'rgb(75, 213, 238)'
     });
