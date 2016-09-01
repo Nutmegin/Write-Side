@@ -28,7 +28,7 @@ export default {
   showLogo() {
     document.body.classList.add('body-stars');
 
-    this.logoText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'Louis\' 5th\nBirthday', {
+    this.logoText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'Pitch Slam', {
       font: '140px sf_distant_galaxyregular',
       fill: 'rgb(0,0,0)',
       stroke: '#ff6',
