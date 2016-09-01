@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "NODE_ENV=production webpack",
-    "deploy": "surge -p public -d louis.surge.sh",
+    "deploy": "surge -p public -d writeside.surge.sh",
     "yolo": "npm run build && npm run deploy"
   },
   "repository": {
